@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"oled_i2c\startup_stm32f103xb.o"
+"oled_i2c\fonts.o"
+"oled_i2c\ssd1306.o"
+"oled_i2c\test.o"
+"oled_i2c\main.o"
+"oled_i2c\stm32f1xx_it.o"
+"oled_i2c\stm32f1xx_hal_msp.o"
+"oled_i2c\stm32f1xx_hal_gpio_ex.o"
+"oled_i2c\stm32f1xx_hal_i2c.o"
+"oled_i2c\stm32f1xx_hal.o"
+"oled_i2c\stm32f1xx_hal_rcc.o"
+"oled_i2c\stm32f1xx_hal_rcc_ex.o"
+"oled_i2c\stm32f1xx_hal_gpio.o"
+"oled_i2c\stm32f1xx_hal_dma.o"
+"oled_i2c\stm32f1xx_hal_cortex.o"
+"oled_i2c\stm32f1xx_hal_pwr.o"
+"oled_i2c\stm32f1xx_hal_flash.o"
+"oled_i2c\stm32f1xx_hal_flash_ex.o"
+"oled_i2c\stm32f1xx_hal_exti.o"
+"oled_i2c\stm32f1xx_hal_tim.o"
+"oled_i2c\stm32f1xx_hal_tim_ex.o"
+"oled_i2c\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "OLED_I2C\OLED_I2C.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "OLED_I2C.map" -o OLED_I2C\OLED_I2C.axf

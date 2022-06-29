@@ -1,0 +1,8 @@
+Added Component: Designator=J?(jp2h)
+Add component (AddParameter): Name = "Value"; Value = "JP 2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Member To Class: ClassName=Sheet1 Member=Component J? Jumper 2
+Added Member To Class: ClassName=Sheet1 Member=Component JP? JP 1x3 2.54
+Added Member To Class: ClassName=Sheet1 Member=Component JP? JP 1x20 2.54
+Added Room: Name=Sheet1

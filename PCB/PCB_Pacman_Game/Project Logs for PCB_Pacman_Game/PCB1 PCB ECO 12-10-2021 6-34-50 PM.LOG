@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=Down Pin=Down/Next-3
+Added Pin To Net: NetName=GND Pin=Down/Next-4
+Added Pin To Net: NetName=GND Pin=Left/--4
+Added Pin To Net: NetName=Right Pin=Right/+-3
+Added Pin To Net: NetName=GND Pin=Right/+-4
+Added Pin To Net: NetName=Up Pin=Up/Ok-3
+Added Pin To Net: NetName=GND Pin=Up/Ok-4
+Added Member To Class: ClassName=Sheet1 Member=Component JP? JP 1x3 2.54
+Added Member To Class: ClassName=Sheet1 Member=Component JP? JP 1x20 2.54
+Added Room: Name=Sheet1
